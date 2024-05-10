@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fighter</title>
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+    <section>
+        <div class="container">
+            <div class="logo">
+                <a href="./start.html"><img src="./assets/logo-white.png" alt="Logo"></a>
+            </div>
+            <div class="team-select-background">
+            </div>
+            
+            <div class="back-button">                    
+                <button id="backBtn"><</button>
+            </div>
+            <div class="team-buttons"> 
+                <h2>SELECT TEAM</h2>               
+                <button id="terrorist" onclick="selectTeam('terrorists')">TERRORIST</button>                                
+                <button id="counter-terrorist" onclick="selectTeam('counter-terrorists')">COUNTER TERRORIST</button>                                
+                <button id="auto-select" onclick="selectTeam('auto-select')">AUTO SELECT</button>                
+            </div>
+        </div>
+    </section>
+    <script src="./js/team-select.js"></script>
+</body>
+</html>

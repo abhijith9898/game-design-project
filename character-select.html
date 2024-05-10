@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fighter</title>
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+    <section>
+        <div class="container">
+            <div class="logo">
+                <a href="./start.html"><img src="./assets/logo-white.png" alt="Logo"></a>
+            </div>
+            <div class="character-select-background">
+            </div> 
+            <div class="back-button">                    
+                <button id="backBtn"><</button>
+            </div>
+            <div class="choose-agent-title">
+                <h2>CHOOSE AN AGENT - <span id="team-span"></span></h2>
+            </div>
+            <div class="name-input">
+                <label for="agent-name">Choose your name: </label>
+                <input type="text" id="agent-name" name="agent-name" maxlength="20">
+            </div>
+            <div class="agent-grid" id="agentGrid">                
+            </div>          
+        </div>
+    </section>
+    <script src="./js/character.js"></script>
+</body>
+</html>
